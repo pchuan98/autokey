@@ -14,7 +14,6 @@
     Width="1400"
     Height="850"
     d:DataContext="{d:DesignInstance core:MainViewModel}"
-    Topmost="True"
     mc:Ignorable="d">
 
     <liftui:Window.NonClientAreaContent>
