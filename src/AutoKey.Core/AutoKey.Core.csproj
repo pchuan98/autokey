@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="C:\Users\simscop\.nuget\packages\windowsinput\6.4.1\contentFiles\any\net6.0-windows7.0\.nuget\mouse-keyboard-hook-logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+		<PackageReference Include="InputSimulatorStandard" Version="1.0.0" />
+		<PackageReference Include="MouseKeyHook" Version="5.7.1" />
+		<PackageReference Include="Serilog" Version="4.0.2-dev-02224" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="WindowsInput" Version="6.4.1" />
+	</ItemGroup>
+</Project>
